@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding:1px ;
+    box-sizing: 4px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between ;
+    color:solid black;
+    margin: 0px;
+}
+img{
+    width: 100px;
+}
+nav{
+    display: flex;
+    /* justify-content: ; */
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 150px;
+    gap: 20px;
+    height: 200px;
+}
+.first{
+    border: 2px solid black;
+    display: grid;
+    grid-column: span 3;
+    grid-row: span 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.second{
+    border: 2px solid black;
+    display: grid;
+    grid-column: 4 /5;
+    grid-row: span 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+    
+.third{
+    border: 2px solid black;
+    display: grid;
+    grid-column: 1/4 ;
+    grid-row:span 2 ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.fourth{
+    border: 2px solid black;
+    display: grid;
+    grid-column: 4/5 ;
+    grid-row:span 3;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.fifth{
+    border: 2px solid black;
+    display: grid;
+    grid-column: span 3 ;
+    grid-row:span 3;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.sixth{
+    border: 2px solid black;
+    display: grid;
+    grid-column: span 4 ;
+    grid-row:span 4;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    color: solid black;
+    text-decoration: none;
+    list-style: none;
+
+}
